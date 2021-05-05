@@ -1,9 +1,16 @@
-import Button from '@material-ui/core/Button'
+import Container from '@material-ui/core/Container'
+import Typography from '@material-ui/core/Typography'
+
+import '@fontsource/roboto'
+
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
-      <Button>OK</Button>
+      <Container maxWidth="sm">
+        <Typography variant="h2">
+          Starting Your App
+        </Typography>
+      </Container>
 
     </div>
   );
